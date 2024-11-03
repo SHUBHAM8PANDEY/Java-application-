@@ -39,10 +39,6 @@ public class shubhamFoodApp {
                 if (Ans3.equals("yes")) {
                     System.out.println("What Would You Like Drink Coke or Juice ? :");
                     String Ans4 = Scan.next();
-
-                    while (!Ans4.equals("coke") && !Ans4.equals("juice")) {
-                        System.out.println("Sorry we don't Have It What Would You Like Coke ans Juice : ");
-                        Ans4 = Scan.next();
                     }
                     if (!Ans4.equals("coke") || !Ans4.equals("juice")) {
                         System.out.println("Great You Have Ordered " + Ans2 + "and" + Ans4);
@@ -77,3 +73,30 @@ public class shubhamFoodApp {
 
     }
 }
+OUTPUT
+    PS E:\java>                                                                                                                               > cd "e:\java\" ; if ($?) { javac shubhamFoodApp.java } ; if ($?) { java shubhamFoodApp }
+Hello to The Welcome Food App
+Please Create a Password :
+12345
+Your Password Is Now:12345
+Please Enter Your Password
+123
+This Is Not The  Right Password PLease Try Again: 
+12345
+Access Granted
+Are You Hungry Yes or No:
+yes
+Choose What You Want To Eat Between pizza,burger,fish
+pizza
+Do You Want Something To Drink? Yes OR NO :
+yes
+What Would You Like Drink Coke or Juice ? :
+juice
+Great You Have Ordered pizzaandjuice
+Please Confirm Your Password
+1234
+This Is Not The  Right Password PLease Try Again:
+12345
+Thank You Your Oder It's ON Way
+PS E:\java> 
+
